@@ -16,7 +16,7 @@ export default function Home() {
           <Image src="/МГС Инж.png" alt="МГС" width={160} height={180}/>
           <div className={styles.textNameCompany}>            
             <h2>Проектное бюро &laquo;МГС Инжиниринг&raquo;</h2> 
-            <p>Создаем иновационные решения</p>            
+            <p>Создаем иновационные решения ggg</p>            
           </div>
           <div className={styles.emptyDiv}></div>          
         </div>
