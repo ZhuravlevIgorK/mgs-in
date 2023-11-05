@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -21,7 +22,13 @@ export default function Home() {
           <div className={styles.emptyDiv}></div>          
       </div>
 
-      ТУТ БУДЕТНАВИГАЦИЯ
+      <nav className={styles.navMenu}>
+        <Link className={styles.styleLink} href = {`calculation`} >
+          <div className={styles.styleText}>                    
+              Расчет стоимости проектирования        
+          </div>                
+        </Link>     
+      </nav> 
 
       ТУТ БУДЕТ СЛАЙДЕР
       
