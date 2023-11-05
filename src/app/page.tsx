@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -16,12 +16,21 @@ export default function Home() {
           <Image src="/МГС Инж.png" alt="МГС" width={160} height={180}/>
           <div className={styles.textNameCompany}>            
             <h2>Проектное бюро &laquo;МГС Инжиниринг&raquo;</h2> 
-            <p>Создаем иновационные решения ggg</p>            
+            <p>Создаем иновационные решения</p>            
           </div>
           <div className={styles.emptyDiv}></div>          
-        </div>
+      </div>
+
+      ТУТ БУДЕТНАВИГАЦИЯ
+
+      ТУТ БУДЕТ СЛАЙДЕР
       
-            
+      <footer className={styles.footer}>
+          {/* &copy; Все права защищены: 2022 - {new Date().getFullYear()} год. */}
+          {/* <TelegramBot/>  */}
+          ТУТ БУДЕТ ПОДВАЛ
+        </footer>   
+
     </main>
   )
 }
