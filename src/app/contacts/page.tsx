@@ -1,11 +1,12 @@
+import ButtonGoHome from "@/components/buttonGoHome";
 import styles from "./contacts.module.scss";
 
 export default function contacts() {
     return (
         <div className={styles.contact}> 
             <div className={styles.head}>  
-                КНОПКА ДОМОЙ    
-                <div></div>                
+               <ButtonGoHome/>    
+               <div></div>                
             </div>    
             <h1>КОНТАКТЫ</h1>
 

@@ -1,11 +1,11 @@
+import ButtonGoHome from "@/components/buttonGoHome";
 import styles from "./calculation.module.scss";
 
 export default function calculation() {
     return (
         <div className={styles.calculatorPage}>
 
-            <button>тут будет кнопка</button>         
-            
+            <ButtonGoHome/>                
             <div className={styles.myPrice}>            
                 <h2>Расчет стоимости проектирования</h2>         
                 <div className={styles.inputDate}>
