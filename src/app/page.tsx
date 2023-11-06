@@ -18,7 +18,7 @@ export default function Home() {
             <h2>Проектное бюро &laquo;МГС Инжиниринг&raquo;</h2> 
             <p>Создаем иновационные решения</p>            
           </div>
-          <div className={styles.emptyDiv}></div>          
+          {/* <div className={styles.emptyDiv}></div>           */}
       </div>
 
       <nav className={styles.navMenu}>
