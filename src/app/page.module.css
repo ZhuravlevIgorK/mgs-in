@@ -28,3 +28,18 @@
   width: 160px;  
   height: 180px; 
 }
+
+.footer {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 97px;
+  height: 45px;  
+  background-color: rgba(255, 0, 0, 0);  
+  border-radius: 8px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.789);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0px;
+  width: 99%;
+}

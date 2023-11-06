@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
 
-export default function Home() {
+export default function Home() { 
   return (
     <main className={styles.main}>
       <div>        
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
 
       <div className={styles.titleMainPage}>
-          <Image src="/МГС Инж.png" alt="МГС" width={160} height={180}/>
+          {/* <Image src="/МГС Инж.png" alt="МГС" width={160} height={180}/> */}
           <div className={styles.textNameCompany}>            
             <h2>Проектное бюро &laquo;МГС Инжиниринг&raquo;</h2> 
             <p>Создаем иновационные решения</p>            
@@ -28,9 +28,19 @@ export default function Home() {
               Расчет стоимости проектирования        
           </div>                
         </Link>     
+
+        <Link className={styles.styleLink} href = {`contacts`} >
+          <div className={styles.styleText}>                    
+              Наши контакты       
+          </div>                
+        </Link>   
+
       </nav> 
 
+      <div>
       ТУТ БУДЕТ СЛАЙДЕР
+      </div>
+      
       
       <footer className={styles.footer}>
           {/* &copy; Все права защищены: 2022 - {new Date().getFullYear()} год. */}
