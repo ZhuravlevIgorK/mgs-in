@@ -30,7 +30,7 @@ export default function Home() {
 
         <Link className={styles.styleLink} href = {`aboutUs`} >
           <div className={styles.styleText}>                    
-              Команда     
+              Наша команда     
           </div>                
         </Link>  
 
