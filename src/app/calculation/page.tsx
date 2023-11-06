@@ -13,9 +13,7 @@ export default function calculation() {
                     <form>
                         <select 
                             name="calc" 
-                            id="calc-select"
-                            // value={typeObject}
-                            // onChange={(e) => setTypeObject(e.target.value)}              
+                            id="calc-select"                                   
                         >
                             <option value=""> --Выберите тип объекта-- </option>
                             <option value="hous">Жилая недвижимость</option>
@@ -27,27 +25,20 @@ export default function calculation() {
                     
                     <div className={styles.calculatorClass}>Введите площадь объекта, м2 :</div>
                     <input 
-                        type="number"  
-                        // value={squareObject} 
-                        // onChange={(e) => setSquareObject(e.target.value)}
+                        type="number"                      
                     />
                     <div className={styles.calculatorClass}>Введите длинну наружных сетей, м.п.:</div>
                     <input 
-                        type="number"  
-                        // value={meterObject} 
-                        // onChange={(e) => setMeterObject(e.target.value)}
+                        type="number"                         
                     /> 
                 </div>  
             </div>   
 
-            <div>                            
-                {/* <PriceСalculator squareObject={squareObject} typeObject={typeObject} meter={meterObject} /> */}
+            <div> 
                 СЮДА ВСТАВИМ ТАБЛИЦУ
             </div> 
 
             <footer className={styles.footer}>
-                {/* &copy; Все права защищены: 2022 - {new Date().getFullYear()} год. */}
-                {/* <TelegramBot/>  */}
                 ТУТ БУДЕТ ПОДВАЛ С ТЕЛЕГОЙ И ДАТОЙ
             </footer>   
         </div>    

@@ -13,8 +13,7 @@ export default function Home() {
             </video>           
       </div>
 
-      <div className={styles.titleMainPage}>
-          {/* <Image src="/МГС Инж.png" alt="МГС" width={160} height={180}/> */}
+      <div className={styles.titleMainPage}>       
           <div className={styles.textNameCompany}>            
             <h2>Проектное бюро &laquo;МГС Инжиниринг&raquo;</h2> 
             <p>Создаем иновационные решения</p>            
@@ -29,11 +28,17 @@ export default function Home() {
           </div>                
         </Link>     
 
+        <Link className={styles.styleLink} href = {`aboutUs`} >
+          <div className={styles.styleText}>                    
+              Команда     
+          </div>                
+        </Link>  
+
         <Link className={styles.styleLink} href = {`contacts`} >
           <div className={styles.styleText}>                    
               Наши контакты       
           </div>                
-        </Link>   
+        </Link> 
 
       </nav> 
 
@@ -42,9 +47,7 @@ export default function Home() {
       </div>
       
       
-      <footer className={styles.footer}>
-          {/* &copy; Все права защищены: 2022 - {new Date().getFullYear()} год. */}
-          {/* <TelegramBot/>  */}
+      <footer className={styles.footer}>          
           ТУТ БУДЕТ ПОДВАЛ
         </footer>   
 
