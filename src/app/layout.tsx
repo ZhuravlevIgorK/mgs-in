@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        {/* <script src="http://localhost:8097"></script>         */}
+        <script src="http://localhost:8097"></script>        
         </body>
     </html>
   )
