@@ -24,11 +24,11 @@ export default function calculation() {
                     </form>
                     
                     <div className={styles.calculatorClass}>Введите площадь объекта, м2 :</div>
-                    <input 
+                    <input id="myNumber1"
                         type="number"                      
                     />
                     <div className={styles.calculatorClass}>Введите длинну наружных сетей, м.п.:</div>
-                    <input 
+                    <input  id="myNumber2"
                         type="number"                         
                     /> 
                 </div>  
