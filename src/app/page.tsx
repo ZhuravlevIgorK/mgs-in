@@ -22,19 +22,19 @@ export default function Home() {
       </div>
 
       <nav className={styles.navMenu}>
-        <Link className={styles.styleLink} href = {`calculation`} >
+        <Link className={styles.styleLink} href={`calculation`} >
           <div className={styles.styleText}>                    
-              Расчет стоимости проектирования        
+              Расчет стоимости проектированияlll        
           </div>                
         </Link>     
 
-        <Link className={styles.styleLink} href = {`aboutUs`} >
+        <Link className={styles.styleLink} href={`aboutUs`} >
           <div className={styles.styleText}>                    
               Наша команда     
           </div>                
         </Link>  
 
-        <Link className={styles.styleLink} href = {`contacts`} >
+        <Link className={styles.styleLink} href={`contacts`} >
           <div className={styles.styleText}>                    
               Наши контакты       
           </div>                
