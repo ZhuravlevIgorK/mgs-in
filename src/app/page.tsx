@@ -24,7 +24,7 @@ export default function Home() {
       <nav className={styles.navMenu}>
         <Link className={styles.styleLink} href={`calculation`} >
           <div className={styles.styleText}>                    
-              Расчет стоимости проектированияlll        
+              Расчет стоимости проектирования        
           </div>                
         </Link>     
 
