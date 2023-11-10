@@ -1,4 +1,4 @@
-import ButtonGoHome from "@/components/buttonGoHome";
+import ButtonGoHome from "@/components/buttonGoHome/buttonGoHome";
 import styles from "./calculation.module.scss";
 
 export default function calculation() {

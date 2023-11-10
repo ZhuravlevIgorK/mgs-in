@@ -1,4 +1,4 @@
-import ButtonGoHome from "@/components/buttonGoHome";
+import ButtonGoHome from "@/components/buttonGoHome/buttonGoHome";
 import styles from "./contacts.module.scss";
 
 export default function contacts() {
