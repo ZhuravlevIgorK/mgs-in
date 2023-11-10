@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>        
-            <video id='bgvideo' className={styles.video} loop autoPlay muted poster=''>
+            <video id='bgvideo' className={styles.video} loop autoPlay muted poster='/fonMain.png'>
               <source src="/myWorkSp.mp4" type="video/mp4"></source>
               <source src="/myWorkSpWEBm.webm" type="video/webm"></source>
               Your browser does not support the video tag.              
