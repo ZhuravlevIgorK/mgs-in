@@ -13,6 +13,7 @@ const staff = [
 export default function aboutUs() {
     return (
         <div className={styles.aboutUs}>
+
             <ButtonGoHome/>         
 
             <h1 className={styles.brendy1}>
@@ -30,7 +31,7 @@ export default function aboutUs() {
             <div className={styles.ourStaffImages}>
                 {staff.map((e) => { 
                     return (               
-                        <figure className={styles.figureStaff}>        
+                        <figure key="ourFigure" className={styles.figureStaff}>        
                             <Image className={styles.img} src={e.src} width={250} height={260} alt="фото"/>
                             <figcaption className={styles.figcaptionImg}> {e.name} <br/>{e.post} </figcaption>
                         </figure>
