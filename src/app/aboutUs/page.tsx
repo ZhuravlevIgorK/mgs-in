@@ -2,7 +2,8 @@ import styles from "./aboutUs.module.scss";
 import ButtonGoHome from "@/components/buttonGoHome/buttonGoHome";
 import Image from "next/image";
 
-const staff = [
+interface typeStaff {name: string, src: string, post: string};
+const staff: [typeStaff, typeStaff, typeStaff, typeStaff, typeStaff] = [
     {name: "Igor Zhuravlev", src: "/staff/IgorZ.jfif", post: "HVAC design engineer"},
     {name: "Vadim Minakov", src: "/staff/VadimM.jpg", post: "Electrical design engineer"},
     {name: "Igor Mikhalev", src: "/staff/IgorM2.png", post: "Engineer designer of low-current networks"},
@@ -29,7 +30,7 @@ export default function aboutUs() {
             </div>
 
             <div className={styles.ourStaffImages}>
-                {staff.map((e) => { 
+                {staff.map((e:typeStaff) => { 
                     return (               
                         <figure key="ourFigure" className={styles.figureStaff}>        
                             <Image className={styles.img} src={e.src} width={250} height={260} alt="фото"/>
