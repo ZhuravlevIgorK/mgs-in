@@ -15,10 +15,10 @@ export default function aboutUs() {
     return (
         <div className={styles.aboutUs}>
 
-            <ButtonGoHome/>         
+            <ButtonGoHome/>       
 
             <h1 className={styles.brendy1}>
-                 НАША
+                НАША
             </h1>
             <h1 className={styles.brendy2}>
                 КОМАНДА

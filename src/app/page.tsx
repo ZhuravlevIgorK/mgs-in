@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
+import Slider from '@/components/slider/slider';
 
 export default function Home() { 
   return (
@@ -42,8 +43,8 @@ export default function Home() {
 
       </nav> 
 
-      <div>
-      ТУТ БУДЕТ СЛАЙДЕР
+      <div className={styles.ourObject}>
+           <Slider/>
       </div>
       
       
