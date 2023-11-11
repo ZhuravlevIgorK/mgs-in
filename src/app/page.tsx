@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
 import Slider from '@/components/slider/slider';
+import ButtonMenu from '@/components/buttonMenu/buttonMenu';
 
 export default function Home() { 
   return (
@@ -19,28 +20,13 @@ export default function Home() {
             <h2>Проектное бюро &laquo;МГС Инжиниринг&raquo;</h2> 
             <p>Создаем иновационные решения</p>            
           </div>
-          {/* <div className={styles.emptyDiv}></div>           */}
+          {/* <div className={styles.emptyDiv}></div> */}
       </div>
 
       <nav className={styles.navMenu}>
-        <Link className={styles.styleLink} href={`calculation`} >
-          <div className={styles.styleText}>                    
-              Расчет стоимости проектирования        
-          </div>                
-        </Link>     
-
-        <Link className={styles.styleLink} href={`aboutUs`} >
-          <div className={styles.styleText}>                    
-              Наша команда     
-          </div>                
-        </Link>  
-
-        <Link className={styles.styleLink} href={`contacts`} >
-          <div className={styles.styleText}>                    
-              Наши контакты       
-          </div>                
-        </Link> 
-
+        <ButtonMenu nameLink="Расчет стоимости проекта" addressLinK="calculation" />          
+        <ButtonMenu nameLink="Наша команда" addressLinK="aboutUs" />    
+        <ButtonMenu nameLink="Контакты" addressLinK="contacts" /> 
       </nav> 
 
       <div className={styles.ourObject}>
