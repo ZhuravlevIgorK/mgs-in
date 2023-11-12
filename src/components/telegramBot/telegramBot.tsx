@@ -1,8 +1,9 @@
+'use client';
 import styles from "./telegramBot.module.scss";
 import { useState } from "react";
 import axios from "axios";
 
-export default function telegramBot() {
+export default function TelegramBot() {
     const [nameUser, setNameUser] = useState<string>("");
     const [numberUser, setNumberUser] = useState<number>();
 
