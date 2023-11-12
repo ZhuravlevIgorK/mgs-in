@@ -1,4 +1,4 @@
-// 'use client';
+'use client';
 import Image from 'next/image';
 import styles from './page.module.css';
 import Slider from "../components/slider/slider";
@@ -36,7 +36,7 @@ export default function Home() {
       </div>      
       
       <footer>          
-        <TelegramBot/>
+        {/* <TelegramBot/> */}
       </footer>   
 
     </main>

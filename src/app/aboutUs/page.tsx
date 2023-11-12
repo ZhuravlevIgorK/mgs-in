@@ -42,7 +42,7 @@ export default function aboutUs() {
                 }                
             </div>  
             <footer style={{color:"white"}}>          
-                <TelegramBot/>
+                {/* <TelegramBot/> */}
             </footer>    
         </div>
 

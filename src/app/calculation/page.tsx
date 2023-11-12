@@ -41,7 +41,7 @@ export default function calculation() {
             </div> 
 
             <footer>          
-                <TelegramBot/>
+                {/* <TelegramBot/> */}
             </footer>    
         </div>    
     )

@@ -1,4 +1,3 @@
-'use client';
 import styles from "./telegramBot.module.scss";
 import { useState } from "react";
 import axios from "axios";
