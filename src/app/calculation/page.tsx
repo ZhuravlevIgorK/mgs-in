@@ -1,5 +1,7 @@
+'use client';
 import ButtonGoHome from "@/components/buttonGoHome/buttonGoHome";
 import styles from "./calculation.module.scss";
+import TelegramBot from "@/components/telegramBot/telegramBot";
 
 export default function calculation() {
     return (
@@ -38,9 +40,9 @@ export default function calculation() {
                 СЮДА ВСТАВИМ ТАБЛИЦУ
             </div> 
 
-            <footer className={styles.footer}>
-                ТУТ БУДЕТ ПОДВАЛ С ТЕЛЕГОЙ И ДАТОЙ
-            </footer>   
+            <footer>          
+                <TelegramBot/>
+            </footer>    
         </div>    
     )
 };

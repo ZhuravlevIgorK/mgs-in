@@ -1,6 +1,8 @@
+'use client';
 import styles from "./aboutUs.module.scss";
 import ButtonGoHome from "@/components/buttonGoHome/buttonGoHome";
 import Image from "next/image";
+import TelegramBot from "@/components/telegramBot/telegramBot";
 
 interface typeStaff {name: string, src: string, post: string};
 const staff: [typeStaff, typeStaff, typeStaff, typeStaff, typeStaff] = [
@@ -38,7 +40,10 @@ export default function aboutUs() {
                         </figure>
                     )})
                 }                
-            </div>    
+            </div>  
+            <footer style={{color:"white"}}>          
+                <TelegramBot/>
+            </footer>    
         </div>
 
     )

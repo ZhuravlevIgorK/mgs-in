@@ -1,5 +1,7 @@
+'use client';
 import ButtonGoHome from "@/components/buttonGoHome/buttonGoHome";
 import styles from "./contacts.module.scss";
+import TelegramBot from "@/components/telegramBot/telegramBot";
 
 export default function contacts() {
     return (
@@ -26,8 +28,8 @@ export default function contacts() {
                 </div>
             </div> 
 
-            <footer className={styles.footer}>                
-                ПОДВАЛ САЙТА
+            <footer style={{color:"white"}}>          
+                <TelegramBot/>
             </footer>  
         </div>       
     )

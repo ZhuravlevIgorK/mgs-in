@@ -16,8 +16,8 @@ const data :[typeData, typeData, typeData, typeData, typeData, typeData, typeDat
 ];
 
 export default function Slider() { 
-    const [image, setImage] = useState<number>(0);    
-   
+    const [image, setImage] = useState<number>(0);   
+     
     return (
         <div className={styles.sliderBox}> 
              
@@ -39,7 +39,7 @@ export default function Slider() {
                 </button> 
                 
                 <div className={styles.imageBorder}>
-                    <Image className={styles.image} src={data[image].src} height={290} width={600} alt={"img object"}/>
+                    <Image className={styles.image} src={data[image].src} height={290} width={600} alt={"img"}/>
                 </div>   
 
                 <button className={styles.button}
