@@ -29,7 +29,7 @@ export default function contacts() {
             </div> 
 
             <footer style={{color:"white"}}>          
-                <TelegramBot/>
+                {/* <TelegramBot/> */}
             </footer>  
         </div>       
     )

@@ -35,7 +35,7 @@ export default function Home() {
         <Slider/>
       </div>      
       
-      <footer>          
+      <footer>      fuu    
         {/* <TelegramBot/> */}
       </footer>   
 
